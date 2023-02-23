@@ -83,6 +83,54 @@ main > section > section{
     flex-direction: column;
 }
 
+.services{
+    background-color: gainsboro;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.services > article{
+    padding-bottom: 5%;
+    padding-top: 2%;
+    align-items: center;
+    row-gap: 3vh;
+}
+
+.services hr{
+    width: 30%;
+}
+
+.services i{
+    font-size: 36px;
+    color: orangered;
+}
+
+.services p{
+    width: 80%;
+    line-height: 1.5;
+    color: gray;
+}
+
+.services h4{
+    font-size: 20px;
+}
+
+.services aside{
+    align-items: center;
+    row-gap: 2vh;
+    min-height: 35vh;
+    justify-content: center;
+    width: 70%;
+    background-color: white;
+}
+
+.services > section{
+    flex-direction: column;
+    row-gap: 5vh;
+    align-items: center;
+
+}
+
 .gallery > article{
     align-items: center;
     padding-bottom: 8%;
