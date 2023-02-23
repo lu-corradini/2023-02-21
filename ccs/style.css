@@ -83,7 +83,22 @@ main > section > section{
     flex-direction: column;
 }
 
+.gallery > article{
+    align-items: center;
+    padding-bottom: 8%;
+    row-gap: 3vh;
+    text-align: center;
+}
 
+.gallery figure{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img{
+    width: 100%;
+    height: 40vh;
+}
 
 .contact > section{
     flex-direction: column;
