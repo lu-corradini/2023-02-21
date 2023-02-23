@@ -70,6 +70,7 @@ header > article{
 main{
     row-gap: 5vh;
     padding-bottom: 5vh;
+    align-items: center;
 }
 
 main > section > section{
@@ -83,8 +84,54 @@ main > section > section{
     flex-direction: column;
 }
 
+.about{
+    row-gap: 5vh;
+    width: 90%;
+}
+
+.about > figure{
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 4vh;
+}
+
+.about img{
+    width: 100%;
+    height: 35vh;
+}
+
+.about a{
+    background-color: orangered;
+    color: white;
+    padding: 2%;
+    width: 50%;
+    display: flex;
+    transition: .6s;
+    align-items: center;
+    column-gap: 1vh;
+}
+
+.about figcaption{
+    row-gap: 3vh;
+    line-height: 1.5;
+}
+
+.about > article{
+    color: darkgray;
+    align-items: center;
+    text-align: center;
+    row-gap: 4vh;
+}
+
+.about small{
+    color: orangered;
+    font-weight: 500;
+}
+
+.about 
+
 .services{
-    background-color: gainsboro;
+    background-color: ghostwhite;
     text-align: center;
     padding-bottom: 5vh;
 }
@@ -97,7 +144,7 @@ main > section > section{
 }
 
 .services hr{
-    width: 30%;
+    width: 40%;
 }
 
 .services i{
