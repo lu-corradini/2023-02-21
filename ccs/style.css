@@ -58,19 +58,33 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    overflow: hidden;
 }
 
 header > article{
     width: 100%;
     height: 100%;
-    padding: 1%;
+    padding: 10%;
 }
 @media(min-width: 200px){
 
+header ul{
+display: none;
+}
+
+header{
+    height: 60vh;
+    color: whitesmoke;
+}
+
+header > article{
+    background-image: linear-gradient(to bottom, rgba(180,0,180,.7), rgba(255,155,0,.5));
+}
+
 main{
-    row-gap: 5vh;
-    padding-bottom: 5vh;
-    align-items: center;
+row-gap: 5vh;
+padding-bottom: 5vh;
+align-items: center;
 }
 
 main > section > section{
@@ -286,3 +300,4 @@ footer{
 
 
 }
+
