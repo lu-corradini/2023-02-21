@@ -301,3 +301,25 @@ footer{
 
 }
 
+@media(min-width: 200px){
+
+.contact{
+    width: 90%;
+}
+
+.contact > section{
+    flex-direction: row;
+    width: 80%;
+    column-gap: 6vh;
+}
+
+[type="submit"]{
+    width: 70%;
+    border-radius: 30px;
+    padding: 2vh;
+    transition: .6s;
+    border: 2px solid var(--mainColor);   
+}
+
+
+}
