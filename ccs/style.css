@@ -142,10 +142,9 @@ main > section > section{
     font-weight: 500;
 }
 
-.about 
 
 .services{
-    background-color: ghostwhite;
+    background-color: gainsboro;
     text-align: center;
     padding-bottom: 5vh;
 }
@@ -302,6 +301,25 @@ footer{
 }
 
 @media(min-width: 200px){
+
+
+.services > section{
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 2vw;
+    justify-content: center;
+    row-gap: 2vh;
+}
+
+.services aside{
+    width: 40%;
+    min-height: 30vh;
+}
+
+.gallery img{
+    width: 50%;
+    height: 30vh;
+}
 
 .contact{
     width: 90%;
